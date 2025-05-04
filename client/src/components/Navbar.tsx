@@ -39,15 +39,19 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-black/80 backdrop-blur-md border-b border-white/10" : "bg-transparent"
+        isScrolled
+          ? "bg-black/80 backdrop-blur-md border-b border-white/10"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-white text-2xl font-heading font-bold tracking-widest">DOXA</span>
+            <span className="text-white text-2xl font-heading font-bold tracking-widest">
+              DOXA
+            </span>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (
@@ -65,17 +69,22 @@ export default function Navbar() {
               ))}
             </div>
           </div>
-          
+
           <div className="flex items-center">
             <Button
               className="bg-white text-black hover:bg-gray-200 transition-all duration-300 transform hover:scale-105"
               size="sm"
               variant="default"
-              onClick={() => console.log("Launch App clicked")}
+              onClick={() =>
+                window.open(
+                  "https://i7m4z-gqaaa-aaaak-qddtq-cai.icp0.io/",
+                  "_blank"
+                )
+              }
             >
               Launch App
             </Button>
-            
+
             <div className="ml-4 md:hidden">
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
