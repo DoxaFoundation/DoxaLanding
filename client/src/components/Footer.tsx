@@ -41,8 +41,14 @@ const footerLinks = {
     { name: "Features", href: "#features" },
     { name: "How It Works", href: "#how-it-works" },
     { name: "Roadmap", href: "#roadmap" },
-    { name: "Whitepaper", href: "#" },
-    { name: "Pricing", href: "#" },
+    {
+      name: "Whitepaper",
+      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/core-concepts",
+    },
+    {
+      name: "Pricing",
+      href: "https://doxa-1.gitbook.io/doxa-guide/features/features/staking-rewards-system",
+    },
   ],
   Resources: [
     {
@@ -53,18 +59,39 @@ const footerLinks = {
       name: "User Guide",
       href: "https://doxa-1.gitbook.io/doxa-guide/features/quickstart",
     },
-    { name: "API", href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/" },
-    { name: "Tutorials", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Support", href: "#" },
+    {
+      name: "API",
+      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/api-reference",
+    },
+    {
+      name: "Tutorials",
+      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/guides",
+    },
+    {
+      name: "Blog",
+      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
+    },
+    {
+      name: "Support",
+      href: "https://doxa-1.gitbook.io/doxa-guide/features/faqs-and-troubleshooting",
+    },
   ],
   Company: [
-    { name: "About", href: "#" },
+    {
+      name: "About",
+      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/#about-us",
+    },
     { name: "Community", href: "/community" },
-    { name: "Careers", href: "#" },
-    { name: "Press", href: "#" },
+    {
+      name: "Careers",
+      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
+    },
+    {
+      name: "Press",
+      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
+    },
     { name: "Contact", href: "mailto:doxadaooperations@gmail.com" },
-    { name: "Privacy Policy", href: "#" },
+    { name: "Privacy Policy", href: "https://doxa-1.gitbook.io/doxa-guide/" },
   ],
 };
 
@@ -131,19 +158,19 @@ export default function Footer() {
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
-              href="#"
+              href="https://doxa-1.gitbook.io/doxa-guide/"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Terms
             </a>
             <a
-              href="#"
+              href="https://doxa-1.gitbook.io/doxa-guide/"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Privacy
             </a>
             <a
-              href="#"
+              href="https://doxa-1.gitbook.io/doxa-guide/"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Cookies
