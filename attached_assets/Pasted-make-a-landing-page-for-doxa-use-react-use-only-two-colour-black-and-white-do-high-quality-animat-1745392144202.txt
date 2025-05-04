@@ -1,0 +1,125 @@
+make a landing page for doxa
+use react
+use only two colour black and white
+do high quality animation and style
+make it fucking moder
+make scrolling like not feel scrolling 
+
+this is the content - 
+- Hero Section: Headline, subheadline, CTA button.
+- Key Features: Bullet points with icons.
+- How It Works: Simple steps.
+-Road map
+- Testimonials: User quotes.
+- Call to Action: Another CTA.
+- news letter
+- Footer: Links, social, legal.
+Doxa, The future of Stablecoins
+Create, own and Earn.
+ a multi-stablecoin platform with the Doxa USD.
+
+No banks. No middlemen. No central point of failure.
+
+Just programmable money—backed, secure, fast.
+
+🚀 Built for Real Impact
+🌍 Cross-Border Remittances — Send money instantly, without the fees.
+🛒 E-Commerce Ready — Stable payments for global businesses.
+📱 Microtransactions — Enable tiny payments for big ideas.
+⚙️ dApp Integration — Plug Doxa into any Web3 app.
+💱 Trading — Use USDx as a reliable base asset across chains.
+
+Your money. Your way. Anywhere.
+
+🧠 How It Works
+One protocol. Three core canisters.
+✅ Stablecoin Minter — You deposit collateral (ICP, ckBTC, ckETH)
+✅ Reserve Pool — Collateral is converted to ckUSDC and locked
+✅ DoxaUSD (USDx) — Instantly minted and sent to your wallet
+
+And the peg? Maintained 24/7 by an intelligent ckUSDC pool.
+
+🛡️ Transparent. Auditable. Decentralized.
+🧾 Real-Time Reserve Dashboards
+
+🔐 Regular Security Audits
+
+📖 Open-Source Smart Contracts
+
+💼 DAO Governance via SNS
+
+You deserve to see what backs your money. With Doxa, you do.
+
+🌱 Stake. Earn. Grow.
+Doxa isn’t just about spending—it’s about growing your assets.
+
+Stake and lock your DoxaUSD to earn real yield from protocol revenue and future staking rewards.
+
+💰 30% of all protocol fees
+🌐 Yield from ICP Neuron staking
+📈 Passive income, powered by decentralization
+
+🏛️ Regulated, Without Compromise
+We believe decentralization and compliance can co-exist.
+
+🔍 Committed to obtaining:
+
+FSCA, FCA, FINMA, NYDFS licenses
+
+ISO 20022 & ISO 22739 financial messaging standards
+
+Doxa is your bridge between the decentralized world and traditional finance.
+
+🛣️ ROADMAP
+From launch to full ecosystem — here’s how we’re building the next generation of decentralized money:
+
+Phase 1: Foundation & MVP (Completed/Ongoing 2025)
+Phase 2: Expansion & Integration (Next 6 months)
+Phase 3: Growth & Ecosystem Development (Following 6 months)
+Phase 4: Maturity & Scaling (Long-term, within the next 12 months)
+Phase 4: Maturity & Scaling (Long-term, within the next 12 months)
+Maturity & Scaling (Long-term, within the next 12 months)
+
+📣 Be an Early Minter. Be a Pioneer.
+This is your chance to help shape the next generation of global finance.
+
+✅ Create your own stablecoin
+✅ Stake and earn yield
+✅ Join a decentralized movement
+✅ Own a piece of the protocol
+
+⚡ Join the Waitlist
+Thousands are ready to move on from fragile stablecoins.
+Are you?
+
+[🚀 Get Early Access]
+[📖 Read the Whitepaper]
+[💬 Join the Community]
+
+✅ READY TO MINT?
+This is stablecoin freedom. This is Doxa.
+[🚀 Launch Doxa Now]
+ [📖 Learn More in Docs]
+
+
+
+
+
+
+🔁 SECONDARY CTA: Be Early. Be First.
+🚨 Don’t just watch the future happen — help build it.
+Join thousands already signed up for early access, launch updates, staking rewards, and more.
+📬 Subscribe for Updates & Airdrop Alerts
+[💌 Join the Early List]
+
+🌐 CONNECT WITH US
+We’re building for everyone. And we’re building it with you.
+Stay close to the community shaping the future of stablecoins:
+🔗 Twitter / X
+ 💬 Telegram
+ 📸 Instagram
+ 📚 Docs
+ 🛠️ [GitHub (Coming Soon)]
+
+
+see when i scrolling it not going down -
