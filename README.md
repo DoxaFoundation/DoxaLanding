@@ -101,11 +101,12 @@ npm run build
 
 ## Community and Resources
 
-- Twitter: [@DoxaV3](https://twitter.com/DoxaV3)
-- Discord: [DoxaV3 Community](https://discord.gg/doxav3)
+- X (Twitter): [@DoxaUSD](https://x.com/DoxaUSD)
+- Discord: [DoxaV3 Community](https://discord.gg/FUuJRFZ8u7)
 - GitHub: [DoxaFoundation/doxa-v3](https://github.com/DoxaFoundation/doxa-v3)
 - Documentation: [Developer Docs](https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/)
 - User Guide: [Doxa Guide](https://doxa-1.gitbook.io/doxa-guide/features/quickstart)
+- Support: [Contact Us](mailto:doxadaooperations@gmail.com)
 
 ## Launch Doxa
 

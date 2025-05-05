@@ -11,12 +11,12 @@ import { FaDiscord } from "react-icons/fa";
 const socialLinks = [
   {
     icon: <Twitter size={20} />,
-    href: "https://twitter.com/DoxaV3",
+    href: "https://x.com/DoxaUSD",
     label: "Twitter",
   },
   {
     icon: <FaDiscord size={20} />,
-    href: "https://discord.gg/doxav3",
+    href: "https://discord.gg/FUuJRFZ8u7",
     label: "Discord",
   },
   {
@@ -60,18 +60,6 @@ const footerLinks = {
       href: "https://doxa-1.gitbook.io/doxa-guide/features/quickstart",
     },
     {
-      name: "API",
-      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/api-reference",
-    },
-    {
-      name: "Tutorials",
-      href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/guides",
-    },
-    {
-      name: "Blog",
-      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
-    },
-    {
       name: "Support",
       href: "https://doxa-1.gitbook.io/doxa-guide/features/faqs-and-troubleshooting",
     },
@@ -80,15 +68,6 @@ const footerLinks = {
     {
       name: "About",
       href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/#about-us",
-    },
-    { name: "Community", href: "/community" },
-    {
-      name: "Careers",
-      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
-    },
-    {
-      name: "Press",
-      href: "https://oc.app/community/4opco-piaaa-aaaaf-bmytq-cai/?ref=luvob-jqaaa-aaaar-aymqa-cai",
     },
     { name: "Contact", href: "mailto:doxadaooperations@gmail.com" },
     { name: "Privacy Policy", href: "https://doxa-1.gitbook.io/doxa-guide/" },
