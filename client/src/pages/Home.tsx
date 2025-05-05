@@ -8,11 +8,18 @@ import Testimonials from "@/components/Testimonials";
 import CallToAction from "@/components/CallToAction";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
-
   return (
     <div className="bg-black text-white font-sans overflow-x-hidden">
+      <Helmet>
+        <title>DoxaV3 - Decentralized Stablecoin Platform</title>
+        <meta
+          name="description"
+          content="DoxaV3 is a decentralized stablecoin platform built on the Internet Computer, offering stable, secure, and efficient digital currency solutions."
+        />
+      </Helmet>
       <Navbar />
       <Hero />
       <Features />

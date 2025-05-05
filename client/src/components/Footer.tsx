@@ -137,19 +137,19 @@ export default function Footer() {
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
-              href="https://doxa-1.gitbook.io/doxa-guide/"
+              href="/terms"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Terms
             </a>
             <a
-              href="https://doxa-1.gitbook.io/doxa-guide/"
+              href="/privacy"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Privacy
             </a>
             <a
-              href="https://doxa-1.gitbook.io/doxa-guide/"
+              href="/cookies"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
             >
               Cookies
