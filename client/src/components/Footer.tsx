@@ -70,7 +70,6 @@ const footerLinks = {
       href: "https://sgv54-gyaaa-aaaag-qngxa-cai.icp0.io/#about-us",
     },
     { name: "Contact", href: "mailto:doxadaooperations@gmail.com" },
-    { name: "Privacy Policy", href: "https://doxa-1.gitbook.io/doxa-guide/" },
   ],
 };
 
@@ -78,8 +77,8 @@ export default function Footer() {
   return (
     <footer className="py-12 bg-black border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="col-span-1 md:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div className="col-span-1">
             <div className="text-2xl font-heading font-bold tracking-widest mb-6">
               DOXA
             </div>
@@ -105,9 +104,11 @@ export default function Footer() {
           </div>
 
           {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="font-medium text-lg mb-4">{category}</h3>
-              <ul className="space-y-2">
+            <div key={category} className="flex flex-col">
+              <h3 className="font-medium text-lg mb-6 text-white">
+                {category}
+              </h3>
+              <ul className="space-y-3">
                 {links.map((link, index) => (
                   <li key={index}>
                     <a
@@ -123,19 +124,19 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm">
             © 2025 Doxa. All rights reserved.
-            <div className="mt-2">
-              <a
-                href="mailto:doxadaooperations@gmail.com"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-              >
-                doxadaooperations@gmail.com
-              </a>
-            </div>
           </div>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className="mt-2 md:mt-0">
+            <a
+              href="mailto:doxadaooperations@gmail.com"
+              className="text-gray-400 hover:text-white transition-colors duration-300 text-sm"
+            >
+              doxadaooperations@gmail.com
+            </a>
+          </div>
+          <div className="flex space-x-8 mt-6 md:mt-0">
             <a
               href="/terms"
               className="text-gray-400 hover:text-white text-sm transition-colors duration-300"
