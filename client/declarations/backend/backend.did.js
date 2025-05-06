@@ -1,4 +1,7 @@
 export const idlFactory = ({ IDL }) => {
-  return IDL.Service({ 'name' : IDL.Func([IDL.Text], [], []) });
+  const Result = IDL.Variant({ 'ok' : IDL.Null, 'err' : IDL.Text });
+  return IDL.Service({
+    'subscribe_email' : IDL.Func([IDL.Text], [Result], []),
+  });
 };
 export const init = ({ IDL }) => { return []; };
