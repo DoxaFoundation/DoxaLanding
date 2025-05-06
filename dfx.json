@@ -1,21 +1,31 @@
 {
-    "canisters": {
-        "doxa_landing_frontend": {
-            "frontend": {
-                "entrypoint": "dist/public/index.html"
-            },
-            "source": [
-                "dist/public/"
-            ],
-            "type": "assets"
-        }
+  "canisters": {
+    "doxa_landing_frontend": {
+      "frontend": {
+        "entrypoint": "dist/public/index.html"
+      },
+      "source": [
+        "dist/public/"
+      ],
+      "type": "assets"
     },
-    "defaults": {
-        "build": {
-            "args": "",
-            "packtool": ""
-        }
-    },
-    "output_env_file": ".env",
-    "version": 1
+    "backend": {
+      "type": "motoko",
+      "main": "backend/main.mo",
+      "declarations": {
+        "bindings": null,
+        "env_override": null,
+        "node_compatibility": false,
+        "output": "client/declarations/backend"
+      }
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
 }

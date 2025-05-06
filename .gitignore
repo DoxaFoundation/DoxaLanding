@@ -10,3 +10,4 @@ vite.config.ts.*
 .env
 .vessel/
 canister_ids.json
+.mops
