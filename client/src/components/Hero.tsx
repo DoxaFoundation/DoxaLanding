@@ -132,7 +132,7 @@ export default function Hero() {
       </div>
 
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden md:flex flex-col items-center cursor-pointer"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
         onClick={scrollToFeatures}
