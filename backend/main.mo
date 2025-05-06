@@ -4,6 +4,7 @@ import { thash } "mo:map/Set";
 import Text "mo:base/Text";
 import Char "mo:base/Char";
 import Iter "mo:base/Iter";
+import Array "mo:base/Array";
 
 actor {
 
@@ -57,6 +58,17 @@ actor {
 
         Set.add(emails, thash, email);
         return #ok();
+    };
+
+    // Get all subscribed emails (admin function)
+    public query func get_all_emails() : async [Text] {
+        let emailArray = Set.toArray(emails);
+        return emailArray;
+    };
+
+    // Get total number of subscribed emails
+    public query func get_subscriber_count() : async Nat {
+        return Set.size(emails);
     };
 
 };

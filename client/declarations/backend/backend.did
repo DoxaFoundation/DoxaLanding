@@ -4,5 +4,7 @@ type Result =
    ok;
  };
 service : {
+  get_all_emails: () -> (vec text) query;
+  get_subscriber_count: () -> (nat) query;
   subscribe_email: (text) -> (Result);
 }

@@ -5,12 +5,10 @@ import { idlFactory } from "./backend.did.js";
 export { idlFactory } from "./backend.did.js";
 
 /* CANISTER_ID is replaced by webpack based on node environment
- * Note: canister environment variable will be standardized as
- * process.env.CANISTER_ID_<CANISTER_NAME_UPPERCASE>
- * beginning in dfx 0.15.0
+ * For Vite, we use import.meta.env with VITE_
  */
 export const canisterId =
-  process.env.CANISTER_ID_BACKEND;
+  import.meta.env.VITE_CANISTER_ID_BACKEND || "umunu-kh777-77774-qaaca-cai"; // Actual backend canister ID
 
 export const createActor = (canisterId, options = {}) => {
   const agent = options.agent || new HttpAgent({ ...options.agentOptions });
@@ -22,7 +20,7 @@ export const createActor = (canisterId, options = {}) => {
   }
 
   // Fetch root key for certificate validation during development
-  if (process.env.DFX_NETWORK !== "ic") {
+  if (import.meta.env.DEV) {
     agent.fetchRootKey().catch((err) => {
       console.warn(
         "Unable to fetch root key. Check to ensure that your local replica is running"

@@ -9,6 +9,7 @@ import Home from "@/pages/Home";
 import Terms from "@/pages/Terms";
 import Privacy from "@/pages/Privacy";
 import Cookies from "@/pages/Cookies";
+// import Admin from "@/pages/Admin";
 import SmoothScroll from "./components/SmoothScroll";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
       <Route path="/terms" component={Terms} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/cookies" component={Cookies} />
+      {/* <Route path="/admin" component={Admin} /> */}
       <Route component={NotFound} />
     </Switch>
   );
