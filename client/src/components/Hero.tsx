@@ -14,17 +14,17 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-center relative overflow-hidden pt-16"
+      className="min-h-screen flex flex-col justify-center relative overflow-hidden pt-6"
     >
       <div className="absolute top-0 left-0 w-full h-full opacity-40">
         <div className="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full filter blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full filter blur-3xl transform translate-x-1/3 translate-y-1/4"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-24 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <AnimatedSection className="space-y-8" delay={0.1}>
-            <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/10 backdrop-blur-sm border border-white/20 mb-4">
+            <div className="inline-flex items-center px-4 py-2 rounded-full text-xs font-medium bg-black border border-white/20">
               <span className="animate-pulse mr-2 h-2 w-2 bg-white rounded-full"></span>
               <span>Launching Soon</span>
             </div>
@@ -38,7 +38,6 @@ export default function Hero() {
                 <span className="inline-block bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
                   Stablecoins
                 </span>
-                <span className="absolute bottom-2 left-0 w-full h-1 bg-white transform group-hover:scale-x-110 origin-left transition-transform duration-300"></span>
               </div>
             </motion.h1>
 
@@ -66,20 +65,21 @@ export default function Hero() {
                   )
                 }
               >
-                <span>Get Early Access</span>
+                <span>Launch App</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="ml-2 h-4 w-4"
-                  fill="none"
+                  width="16"
+                  height="16"
                   viewBox="0 0 24 24"
+                  fill="none"
                   stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="ml-2"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
                 </svg>
               </Button>
               <Button
@@ -116,10 +116,10 @@ export default function Hero() {
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1),rgba(0,0,0,0))] bg-cover bg-center opacity-20"></div>
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="p-8 text-center">
-                  <div className="text-8xl font-bold mb-2">USDx</div>
-                  <div className="text-xl">Doxa USD Stablecoin</div>
+                  <div className="text-8xl font-bold mb-2">DUSD</div>
+                  <div className="text-xl">Doxa USD</div>
                   <div className="mt-8 inline-block bg-white/10 px-4 py-2 backdrop-blur-md rounded-lg">
-                    <span className="text-sm">1 USDx = $1.00 USD</span>
+                    <span className="text-sm">1 DUSD = $1.00 USD</span>
                   </div>
                 </div>
               </div>
