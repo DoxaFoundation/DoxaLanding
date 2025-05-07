@@ -5,6 +5,7 @@ import Text "mo:base/Text";
 import Char "mo:base/Char";
 import Iter "mo:base/Iter";
 import Array "mo:base/Array";
+import Principal "mo:base/Principal";
 
 actor {
 
@@ -61,7 +62,11 @@ actor {
     };
 
     // Get all subscribed emails (admin function)
-    public query func get_all_emails() : async [Text] {
+    public query ({ caller }) func get_all_emails() : async [Text] {
+        if (Principal.fromText("2bfxp-uzezm-gf5ny-ztks2-ybgzc-4dfjc-7gdhs-he2ek-vdjfk-w4yph-fqe") != caller) {
+            return [];
+        };
+
         let emailArray = Set.toArray(emails);
         return emailArray;
     };
