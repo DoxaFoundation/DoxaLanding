@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow admin areas if any exist in the future
+Disallow: /admin
+Disallow: /.well-known/
+
+# Sitemap location
+Sitemap: https://doxa.fi/sitemap.xml
+
+# Host directive
+Host: https://doxa.fi
+
+# Crawl delay (optional - be gentle on IC resources)
+Crawl-delay: 1 

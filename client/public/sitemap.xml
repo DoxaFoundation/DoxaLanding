@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Main Homepage -->
+    <url>
+        <loc>https://doxa.fi/</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://doxa.fi/DOXA.png</image:loc>
+            <image:title>Doxa Logo</image:title>
+            <image:caption>Doxa - The Future of Stablecoins</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://doxa.fi/social-image.jpg</image:loc>
+            <image:title>Doxa Social Preview</image:title>
+            <image:caption>Multi-stablecoin platform built on Internet Computer</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://doxa.fi/privacy</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- Terms of Service -->
+    <url>
+        <loc>https://doxa.fi/terms</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- Cookies Policy -->
+    <url>
+        <loc>https://doxa.fi/cookies</loc>
+        <lastmod>2025-01-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset> 

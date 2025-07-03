@@ -3,4 +3,53 @@
     match: ".well-known",
     ignore: false,
   },
+  {
+    match: "robots.txt",
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Cache-Control": "public, max-age=3600",
+    },
+  },
+  {
+    match: "sitemap.xml",
+    headers: {
+      "Content-Type": "application/xml; charset=utf-8",
+      "Cache-Control": "public, max-age=3600",
+    },
+  },
+  {
+    match: "**/*.webmanifest",
+    headers: {
+      "Content-Type": "application/manifest+json; charset=utf-8",
+      "Cache-Control": "public, max-age=86400",
+    },
+  },
+  {
+    match: "**/*.png",
+    headers: {
+      "Content-Type": "image/png",
+      "Cache-Control": "public, max-age=31536000",
+    },
+  },
+  {
+    match: "**/*.jpg",
+    headers: {
+      "Content-Type": "image/jpeg",
+      "Cache-Control": "public, max-age=31536000",
+    },
+  },
+  {
+    match: "**/*.svg",
+    headers: {
+      "Content-Type": "image/svg+xml; charset=utf-8",
+      "Cache-Control": "public, max-age=31536000",
+    },
+  },
+  {
+    match: "**/*.ico",
+    headers: {
+      "Content-Type": "image/x-icon",
+      "Cache-Control": "public, max-age=31536000",
+    },
+  },
 ]
