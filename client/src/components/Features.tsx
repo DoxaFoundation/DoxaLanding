@@ -33,7 +33,7 @@ const features = [
   {
     icon: <TrendingUp className="text-2xl" />,
     title: "Trading",
-    description: "Use USDx as a reliable base asset across chains.",
+    description: "Use DUSD as a reliable base asset across chains.",
   },
   {
     icon: <Shield className="text-2xl" />,
@@ -46,19 +46,23 @@ export default function Features() {
   return (
     <section id="features" className="py-24 bg-black relative overflow-hidden">
       <div className="absolute top-0 w-full h-px bg-gradient-to-r from-transparent via-white/50 to-transparent"></div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold">
-            <span className="inline-block border-b-2 border-white pb-1">Built for Real Impact</span>
+            <span className="inline-block border-b-2 border-white pb-1">
+              Built for Real Impact
+            </span>
           </h2>
-          <p className="mt-4 text-xl text-gray-300">Your money. Your way. Anywhere.</p>
+          <p className="mt-4 text-xl text-gray-300">
+            Your money. Your way. Anywhere.
+          </p>
         </AnimatedSection>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <AnimatedSection 
-              key={index} 
+            <AnimatedSection
+              key={index}
               delay={index * 0.1}
               className="feature-card bg-gradient-to-b from-white/5 to-transparent backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:border-white/30 transition-all duration-300 transform hover:-translate-y-1 hover:bg-white/10"
             >
@@ -71,22 +75,32 @@ export default function Features() {
           ))}
         </div>
       </div>
-      
+
       <div className="mt-24 relative overflow-hidden py-8 bg-white/5">
-        <motion.div 
+        <motion.div
           className="flex whitespace-nowrap"
           animate={{ x: [0, "-50%"] }}
           transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
         >
-          {Array(2).fill("").map((_, i) => (
-            <div key={i} className="flex">
-              <span className="text-4xl font-bold opacity-20 mx-4">TRANSPARENT</span>
-              <span className="text-4xl font-bold opacity-20 mx-4">DECENTRALIZED</span>
-              <span className="text-4xl font-bold opacity-20 mx-4">AUDITABLE</span>
-              <span className="text-4xl font-bold opacity-20 mx-4">SECURE</span>
-              <span className="text-4xl font-bold opacity-20 mx-4">FAST</span>
-            </div>
-          ))}
+          {Array(2)
+            .fill("")
+            .map((_, i) => (
+              <div key={i} className="flex">
+                <span className="text-4xl font-bold opacity-20 mx-4">
+                  TRANSPARENT
+                </span>
+                <span className="text-4xl font-bold opacity-20 mx-4">
+                  DECENTRALIZED
+                </span>
+                <span className="text-4xl font-bold opacity-20 mx-4">
+                  AUDITABLE
+                </span>
+                <span className="text-4xl font-bold opacity-20 mx-4">
+                  SECURE
+                </span>
+                <span className="text-4xl font-bold opacity-20 mx-4">FAST</span>
+              </div>
+            ))}
         </motion.div>
       </div>
     </section>
